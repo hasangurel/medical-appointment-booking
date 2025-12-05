@@ -1,70 +1,169 @@
-# Getting Started with Create React App
+# StayHealthy - Medical Appointment Booking Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![StayHealthy](https://img.shields.io/badge/StayHealthy-Medical%20Care-00A896?style=for-the-badge)
+![React](https://img.shields.io/badge/React-19.2.1-61DAFB?style=for-the-badge&logo=react)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Available Scripts
+A modern, responsive web application for booking medical appointments with verified doctors. Built with React.js as part of the IBM Full Stack Software Developer Capstone Project.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔐 User Authentication
+- **Sign Up** - Create account with role selection (Patient/Doctor/Admin)
+- **Login** - Secure authentication with validation
+- **Logout** - Session management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🏥 Appointment Booking
+- **Doctor Search** - Find by name or specialty
+- **Real-time Availability** - View ratings & experience
+- **Book/Cancel** - Easy appointment management
 
-### `npm test`
+### 💬 Instant Consultation
+- **Video Interface** - Connect with doctors
+- **Live Chat** - Real-time messaging
+- **Availability Status** - See who's online
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ⭐ Reviews & Ratings
+- **Patient Feedback** - Share experiences
+- **Star Ratings** - Rate doctors 1-5 stars
+- **Review Tracking** - Manage submissions
 
-### `npm run build`
+### 🔔 Smart Notifications
+- Success/Error/Info alerts
+- Auto-dismiss timers
+- Form validation feedback
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React.js 19.2.1** - UI Library
+- **React Router DOM** - Routing
+- **CSS3** - Styling
+- **HTML5** - Markup
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js (v14+)
+- npm (v6+)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/medical-appointment-booking.git
 
-## Learn More
+# Navigate to directory
+cd medical-appointment-booking
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start development server
+npm start
+```
 
-### Code Splitting
+Open [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 💻 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start       # Development mode
+npm run build   # Production build
+npm test        # Run tests
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 Project Structure
 
-### Advanced Configuration
+```
+medical-appointment-booking/
+├── src/
+│   ├── components/
+│   │   ├── SignUp/
+│   │   ├── Login/
+│   │   ├── AppointmentBooking/
+│   │   ├── Notification/
+│   │   ├── Reviews/
+│   │   ├── Profile/
+│   │   └── InstantConsultation/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── public/
+└── screenshots/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+All screenshots available in [`/screenshots`](./screenshots) folder:
 
-### `npm run build` fails to minify
+- navbar_design.png
+- signup_form_design.png
+- login_form_design.png
+- signup_validation.png
+- login_validation.png
+- logout_button.png
+- docsearch_output.png
+- notification_integration.png
+- instant_consultation.png
+- review_form.png
+- disable_review-button.png
+- profilename_change.png
+- build.png
+- seo.png
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🎨 Design
+
+- **Primary Color**: #00A896 (Medical Teal)
+- **Font**: Inter
+- **Responsive**: Mobile-first
+- **Accessibility**: WCAG compliant
+
+---
+
+## 🔒 Security
+
+- Form validation
+- Email validation (RFC compliant)
+- Password requirements (8+ characters)
+- Error handling
+
+---
+
+## 📊 Future Enhancements
+
+- Backend API integration
+- Real WebRTC video calls
+- Payment gateway
+- Email/SMS notifications
+- Admin dashboard
+
+---
+
+## 👨‍💻 Author
+
+IBM Full Stack Capstone Project
+December 2025
+
+---
+
+## 📝 License
+
+MIT License
+
+---
+
+**Made with ❤️ for healthcare**
