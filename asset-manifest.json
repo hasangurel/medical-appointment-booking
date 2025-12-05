@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/medical-appointment-booking/static/css/main.af306423.css",
+    "main.js": "/medical-appointment-booking/static/js/main.31655ed2.js",
+    "static/js/453.d07b311a.chunk.js": "/medical-appointment-booking/static/js/453.d07b311a.chunk.js",
+    "index.html": "/medical-appointment-booking/index.html",
+    "main.af306423.css.map": "/medical-appointment-booking/static/css/main.af306423.css.map",
+    "main.31655ed2.js.map": "/medical-appointment-booking/static/js/main.31655ed2.js.map",
+    "453.d07b311a.chunk.js.map": "/medical-appointment-booking/static/js/453.d07b311a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af306423.css",
+    "static/js/main.31655ed2.js"
+  ]
+}
